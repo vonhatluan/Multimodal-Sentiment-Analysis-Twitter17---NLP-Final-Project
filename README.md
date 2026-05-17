@@ -1,20 +1,3 @@
-## 📁 Cấu Trúc Thư Mục Dự Án
-```text
-├── .gradio/               # Thư mục lưu cấu hình bộ đệm của giao diện Web
-├── Datasets/              # Thư mục chứa tập dữ liệu thực nghiệm Twitter-17
-│   ├── twitter_training.csv      # Tập dữ liệu thô dùng để huấn luyện mô hình
-│   └── twitter_validation.csv    # Tập dữ liệu kiểm định cấu trúc
-├── my_fast_roberta_model/ # Trọng số mô hình Custom RoBERTa (Quản lý qua Git LFS)
-│   ├── model.safetensors         # Tệp trọng số mô hình cốt lõi (~500MB)
-│   ├── config.json               # Cấu hình kiến trúc mạng mạng Transformer
-│   └── [Các tệp Tokenizer định nghĩa từ điển mã từ...]
-├── Đánh giá mô hình/       # Biểu đồ ma trận nhầm lẫn (Confusion Matrix) và đồ thị chỉ số
-├── .gitattributes         # Cấu hình theo dõi tệp lớn của Git LFS
-├── Mô hình phân tích cảm xúc từ dữ liệu Twitter-17.ipynb  # Mã nguồn thực nghiệm và phân tích dữ liệu
-├── requirements.txt       # Danh sách các thư viện cần thiết phục vụ cài đặt môi trường
-├── run_app.bat            # Tệp thực thi nhanh ứng dụng Web trên Windows
-└── webapp.py              # Mã nguồn triển khai giao diện Web tương tác bằng Gradio
-
 # Phân Tích Cảm Xúc Khía Cạnh Đa Phương Thức Trên Dữ Liệu Twitter-17
 > **Hệ thống đối sánh hiệu năng đa phương pháp (Multi-Method Sentiment Analysis) và Triển khai Ứng dụng Web**
 
