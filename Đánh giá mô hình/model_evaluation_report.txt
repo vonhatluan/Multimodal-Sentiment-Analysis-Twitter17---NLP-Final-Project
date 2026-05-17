@@ -1,0 +1,18 @@
+
+BÁOCÁO ĐÁNH GIÁ MÔ HÌNH SENTIMENT ANALYSIS
+======================================================================
+Thời gian: 2026-05-14 17:17:31
+
+1. TỔNG QUÁT
+   - Tổng accuracy: 75.00%
+   - Dự đoán đúng: 9/12
+   - Dự đoán sai: 3/12
+
+2. ACCURACY THEO TỪNG NHÃN
+   - Irrelevant  :  33.33% (1/3)
+   - Negative    : 100.00% (3/3)
+   - Neutral     :  66.67% (2/3)
+   - Positive    : 100.00% (3/3)
+
+3. KẾT LUẬN
+   ⚠️  Mô hình hoạt động chấp nhận được với accuracy 75.00%
